@@ -1,0 +1,17 @@
+Añade aquí tus archivos personalizados:
+
+1. Video de fondo:
+   Nombre exacto: Fondo.mp4
+
+2. Logo/icono:
+   Nombre exacto: logo.png
+
+Ejemplo de estructura:
+
+static/
+  Fondo.mp4
+  logo.png
+  LEE_ESTO.txt
+
+Si tu logo no es PNG, puedes cambiar la línea del código en app.py:
+<img class="logo" src="{{ url_for('static', filename='logo.png') }}" alt="Contenido exclusivo">
